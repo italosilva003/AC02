@@ -6,9 +6,9 @@ app = Flask(__name__)
 def inicio():
     return render_template('index.html')
 
-@app.route('/inicio2')
+@app.route('/login')
 def outro_inicio():
-    return render_template('alternative_index.html')
+    return render_template('login.html')
 
 ## Para rodae o projeto em desenvolvimento
 
